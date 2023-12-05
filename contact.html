@@ -15,25 +15,22 @@
             </nav>
         </header>
         <main>
-            <h1>Contact Us</h1>
-            <form action="" method="post">
-                <div>
-                    <label for="contact-name">full name</label>
-                    <input type="text" name="full-name" id="contact-name">
+            <div class="container">
+                <div class="contact-data">
+                    <h1>Contact Us</h1>
+                    <form action="#">
+                        <label for="contact-name">full name</label>
+                        <input type="text" name="full-name" id="contact-name" placeholder="Full Name*">    
+                        <label for="contact-mail">e-mail address</label>
+                        <input type="email" name="e-mail" id="contact-mail" placeholder="Email Address">    
+                        <label for="contact-subject">subject</label>
+                        <input type="text" name="subject" id="contact-subject" placeholder="Subject">    
+                        <label for="contact-message">message</label>
+                        <textarea name="message" id="contact-message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                        <button>Send Message</button>
+                    </form>
                 </div>
-                <div>    
-                    <label for="contact-mail">e-mail address</label>
-                    <input type="email" name="e-mail" id="contact-mail">
-                </div>
-                <div>    
-                    <label for="contact-subject">subject</label>
-                    <input type="text" name="subject" id="contact-subject">
-                </div>
-                <div>    
-                    <label for="contact-message">type your message here</label>
-                    <input type="text" name="message" id="contact-message">
-                </div>
-            </form>
+            </div>
         </main>
         <footer>
             <img src="https://i.ibb.co/vzbHj4j/ws-logo.jpg" alt="wonder sphere logo">
