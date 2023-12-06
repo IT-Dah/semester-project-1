@@ -10,5 +10,95 @@ Pink - #6D194C
 Purple - #340D42
 Blue - #13213D
 Green - #114938
-
 */
+
+body {
+    font-family: sans-serif, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 58px;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+
+/* Header and footer */
+
+ header {
+    background-color: #FFF6F0;
+ }
+
+ header img {
+    max-width: 10%;
+ }
+
+ header nav {
+    display: flex;
+    justify-content: right;
+ }
+
+ a {
+    color: #104B4F;
+ }
+ 
+ button {
+    color: #FFF6F0;
+    background-color: #104B4F;
+ }
+
+ /* Special Events and Exhibitions */
+
+ .special-events {
+    background-color: #6D194C;
+    color: #FFF6F0;
+    display: flex;
+    max-height: 750px;
+    flex-direction: column;
+ }
+
+ .special-events h1 {
+ }
+
+ .special-events1 {
+    max-width: 28%;
+    padding: 1%;
+    justify-content: left;
+ }
+ .special-events1 img {
+    max-width: 100%;
+    max-height: fit-content;
+ }
+
+ .special-events2 {
+    max-width: 28%;
+    padding: 1%;
+    justify-content: center;
+ }
+ .special-events2 img {
+    max-width: 100%;
+    max-height: fit-content;
+ }
+
+ .special-events3 {
+    max-width: 28%;
+    padding: 1%;
+    justify-content: right;
+ }
+ .special-events3 img {
+    max-width: 100%;
+    max-height: fit-content;
+ } 
