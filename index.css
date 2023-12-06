@@ -47,6 +47,8 @@ h4 {
     grid-template-rows: 30% 70%;
  }
 
+
+
  header img {
     max-width: 100%;
     height: auto;
@@ -69,7 +71,7 @@ h4 {
     padding: 10px 20px;
     border-radius: 5px;
  }
-
+ 
  /* Special Events and Exhibitions */
 
  .special-events {
