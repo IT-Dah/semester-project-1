@@ -39,21 +39,36 @@ h4 {
 
 /* Header */
 
-.nav-list {
+header {
    display: flex;
-   margin: 5px;
-   padding: 0;
-   list-style: none;
-   justify-content: space-evenly;
    align-items: center;
+   justify-content: space-between;
 }
 
-.nav-list img {
-   max-width: 15%;
-   justify-self: flex-start;
+.top-ws-logo {
+   max-width: 200px;
+   justify-content: flex-start;
 }
- 
+
+.top-ws-logo img {
+   max-width: 100%;
+   padding: 2rem;
+}
+
+.nav-list {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+   padding: 2rem;
+}
+
+a {
+   color: #104B4F;
+}
+
 button {
+   font-size: 20px;
    color: #FFF6F0;
    background-color: #104B4F;
    padding: 10px 20px;
@@ -65,38 +80,42 @@ button {
 .cards1 {
    background-color: #6D194C;
    color: #FFF6F0;
+   padding: 0 0 1rem;
 }
 
 .cards1 h1 {
-   padding-top: 3%;
+   padding-top: 3rem;
    margin: 0;
 }
 
 .cards2 {
    background-color: #104B4F;
    color: #FFF6F0;
+   padding: 0 0 1rem;
 }
 
 .cards2 h1 {
-   padding-top: 3%;
+   padding-top: 3rem;
    margin: 0;
 }
 
 .cards3 {
    background-color: #340D42;
    color: #FFF6F0;
+   padding: 0 0 1rem;
 }
 
 .cards3 h1 {
-   padding-top: 3%;
+   padding-top: 3rem;
    margin: 0;
 }
 
 .columns {
    display: flex;
-   gap: 2rem;
-   margin: 2rem;
+   margin: 0 2rem 3rem;
    justify-content: center;
+   justify-content: space-between;
+   text-align: center;
 }
 
 .card {
@@ -109,14 +128,34 @@ button {
 }
 
 .explore-together {
-   margin: 1rem 5% 2rem 5%;
+   margin: 1rem 5% 4rem 5%;
+   padding: 0 0 1rem;
 }
 
 .information {
    margin: 1rem 25% 2rem 25%;
+   padding: 0 0 1rem;
 }
 
 .info ul {
    list-style: none;
    padding: 0;
+}
+
+/* Footer */
+
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-height:160px;
+}
+
+.bottom-ws-logo {
+   max-width: 150px;
+   justify-content: flex-start;
+}
+.bottom-ws-logo img {
+   max-width: 100%;
+   padding: 2rem;
 }
