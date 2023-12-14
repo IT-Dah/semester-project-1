@@ -75,39 +75,13 @@ button {
    color: #FFF6F0;
    background-color: #104B4F;
    padding: 10px 20px;
+   padding: 10px 20px;
    border-radius: 5px;
  }
  
+ }
+ 
  /* Main */
-
- .columns {
-   max-width: 99%;
-   display: flex;
-   flex-wrap: wrap;
-   margin: 0 2rem 3rem;
-   justify-content: center;
-   justify-content: space-between;
-   text-align: center;
-   gap: 2rem;
-}
-
-.card {
-   flex: 1;
-   flex-basis: 400px;
-   flex-grow: 1;
-}
-
-.card img {
-   max-width: 100%;
-}
-
-.card a {
-   color: #FFF6F0;
-}
-
-.card a:hover {
-   color: #340D42;
-}
 
 .cards1 {
    background-color: #6D194C;
@@ -159,6 +133,23 @@ button {
    max-width: 100%;
 }
 
+.columns {
+   display: flex;
+   margin: 0 2rem 3rem;
+   justify-content: center;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.card {
+   flex: 1;
+   max-width: 30%;
+}
+
+.card img {
+   max-width: 100%;
+}
+
 .explore-together {
    margin: 1rem 5% 4rem 5%;
    padding: 0 0 1rem;
@@ -191,10 +182,4 @@ footer {
    max-width: 100%;
    padding: 2rem;
 <<<<<<< HEAD
-}
-
-/* Phone */
-
-@media (max-width: 800px) {
-   
 }
