@@ -80,8 +80,7 @@ button {
  
  /* Main */
 
-<<<<<<< HEAD
-.columns {
+ .columns {
    max-width: 99%;
    display: flex;
    flex-wrap: wrap;
@@ -110,8 +109,6 @@ button {
    color: #340D42;
 }
 
-=======
->>>>>>> parent of a0cce98 (.)
 .cards1 {
    background-color: #6D194C;
    color: #FFF6F0;
@@ -199,31 +196,5 @@ footer {
 /* Phone */
 
 @media (max-width: 800px) {
-   .nav-list {
-     display: none; /* Hide regular navigation links by default */
-   }
- 
-   .hamburger {
-     display: block; /* Make the hamburger icon visible */
-     cursor: pointer;
-   }
- 
-   .nav-toggle:checked + .nav-list {
-     display: flex; /* Show the navigation links when the checkbox is checked */
-     flex-direction: column;
-     position: absolute;
-     top: 60px; /* Adjust the top position as needed */
-     left: 0;
-     right: 0;
-     background-color: #FFF6F0;
-     z-index: 1;
-   }
- 
-   .nav-list li {
-     padding: 1rem;
-     text-align: center;
-   }
- }
-=======
+   
 }
->>>>>>> parent of a0cce98 (.)
