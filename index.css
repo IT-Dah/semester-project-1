@@ -270,6 +270,38 @@ button {
    list-style: inside;
 }
 
+/* Terms and Conditions */
+
+.terms-conditions {
+   background-color: #FFF6F0;
+   color: #110203;
+   margin-bottom: 2rem;
+   text-align: left;
+}
+
+.terms-conditions h1 {
+   font-size: 32px;
+   margin: 0rem 4rem 0 4rem;
+}
+
+.terms-conditions h2 {
+   font-size: 24px;
+}
+
+.terms-conditions h3 {
+   font-size: 20px;
+   text-decoration-line: underline;
+}
+
+.terms-conditions h2, h3, ul {
+   margin: 1rem 4rem 1px 4rem;
+}
+
+.terms-conditions p {
+   margin: 0rem 4rem 0 4rem;
+   list-style: inside;
+}
+
 /* Footer */
 
 footer {
@@ -285,4 +317,5 @@ footer {
 }
 .bottom-ws-logo img {
    max-width: 100%;
+   margin-left: 2rem;
 }
