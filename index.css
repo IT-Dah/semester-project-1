@@ -79,7 +79,7 @@ button {
    border-radius: 5px;
  }
  
- /* Main */
+ /* Index page */
 
 .cards1 {
    background-color: #6D194C;
@@ -163,6 +163,23 @@ button {
    padding: 0;
 }
 
+/* Exhibition Page */
+
+.exhibit {
+   display: flex;
+   flex-direction: row;
+   gap: 3rem;
+   align-content: center;
+   text-align: center;
+}
+
+.exhibit img {
+   max-width: 45%;
+}
+
+
+
+
 /* Footer */
 
 footer {
@@ -178,5 +195,4 @@ footer {
 }
 .bottom-ws-logo img {
    max-width: 100%;
-   padding: 2rem;
 }
