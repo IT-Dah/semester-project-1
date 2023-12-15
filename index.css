@@ -125,6 +125,7 @@ button {
 .card {
    flex: 1;
    max-width: 30%;
+   
 }
 
 .card img {
@@ -235,6 +236,38 @@ button {
 
 .evolution .robo-ai  {
    background-color: #FFF6F0;
+}
+
+/* Privacy Policy */
+
+.privacy-policy {
+   background-color: #FFF6F0;
+   color: #110203;
+   margin-bottom: 2rem;
+   text-align: left;
+}
+
+.privacy-policy h1 {
+   font-size: 32px;
+   margin: 0rem 4rem 0 4rem;
+}
+
+.privacy-policy h2 {
+   font-size: 24px;
+}
+
+.privacy-policy h3 {
+   font-size: 20px;
+   text-decoration-line: underline;
+}
+
+.privacy-policy h2, h3, ul {
+   margin: 1rem 4rem 1px 4rem;
+}
+
+.privacy-policy p {
+   margin: 0rem 4rem 0 4rem;
+   list-style: inside;
 }
 
 /* Footer */
