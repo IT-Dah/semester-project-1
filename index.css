@@ -165,20 +165,77 @@ button {
 
 /* Exhibition Page */
 
-.exhibit {
-   display: flex;
-   flex-direction: row;
-   gap: 3rem;
-   align-content: center;
-   text-align: center;
-}
-
 .exhibit img {
-   max-width: 45%;
+   max-width:100%;
 }
 
+.exhibit h2 {
+   margin: 0%;
+}
 
+.left {
+   color: #FFF6F0;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 2rem;
+}
 
+.left-text {
+   grid-column: 1;
+   text-align: center;
+   max-width: 90%;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   align-self: center;
+   justify-self: center;
+}
+
+.left-pic {
+   grid-column: 2;
+   align-self: center;
+   justify-self: center;
+}
+
+.cosmology {
+   background: #340D42;
+}
+
+.bio-meds {
+   background: #104B4F;
+}
+
+.ecology {
+   background: #6D194C;
+}
+
+.right {
+   color: #110203;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+   padding: 2rem;
+}
+
+.right-text {
+   grid-column: 2;
+   max-width: 90%;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   grid-row: 1;
+   align-self: center;
+   justify-self: center;
+}
+
+.right-pic {
+   grid-column: 1;
+   grid-row: 1;
+   align-self: center;
+   justify-self: center;
+}
+
+.evolution .robo-ai  {
+   background-color: #FFF6F0;
+}
 
 /* Footer */
 
