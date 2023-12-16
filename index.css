@@ -168,7 +168,7 @@ button {
 /* Exhibition Page */
 
 .exhibit img {
-   max-width:100%;
+   max-width:80%;
 }
 
 .exhibit h2 {
@@ -244,7 +244,7 @@ button {
 .privacy-policy {
    background-color: #FFF6F0;
    color: #110203;
-   margin-bottom: 2rem;
+   margin: 2rem;
    text-align: left;
 }
 
@@ -276,7 +276,7 @@ button {
 .terms-conditions {
    background-color: #FFF6F0;
    color: #110203;
-   margin-bottom: 2rem;
+   margin: 2rem;
    text-align: left;
 }
 
@@ -308,7 +308,6 @@ button {
 .contact-us {
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -320,18 +319,33 @@ button {
    width: 100%;
    background: #FFF6F0;
    margin: auto;
-   padding-bottom: 2rem;
    justify-content: center;
    text-align: center;
 }
 
 .wrapper h1 {
-   text-align: left;
+   text-align: center;
    font-size: 32px;
 }
 
-.form {
-   width: 100%;
+.opening-hours {
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+.opening-hours h2 {
+   font-size: 24px;
+   justify-content: flex-start;
+   text-decoration: underline;
+   margin: 3px;
+}
+
+.opening-hours ul {
+   list-style: none;
+   justify-content: flex-start;
+   padding: 0;
+   margin: 0;
 }
 
 input, textarea {
@@ -342,13 +356,22 @@ input, textarea {
    margin-bottom: 1rem;
 }
 
+#date {
+   width: 30%;
+}
+
+.form p {
+   margin-bottom: 5px;
+   padding: 0;
+}
+
 .btn {
    justify-content: flex-end;
    text-align: right;
-   margin: 0;
    padding: 0;
 }
 .btn button {
+   float: inline-end;
    text-align: center;
    width: 25%;
 }
@@ -359,28 +382,10 @@ input, textarea {
 }
 
 .contact-info ul {
+   display: inline-block;
    list-style: none;
-   justify-content: flex-start;
-   text-align: left;
-}
-
-.opening-hours {
-   justify-content: flex-start;
-   text-align: left;
-   margin-bottom: 2rem;
-}
-
-.opening-hours h2 {
-   font-size: 24px;
-   justify-content: flex-start;
-   margin-left: 10%;
-}
-
-.opening-hours ul {
-   list-style: none;
-   justify-content: flex-start;
-   text-align: left;
-   margin-left: 10%;
+   padding: 1%;
+   margin: 1%;
 }
 
 /* Footer */
