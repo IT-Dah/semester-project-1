@@ -43,6 +43,7 @@ header {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   border-bottom: 4px solid #104B4F;
    margin: 0;
    padding: 0;
 }
@@ -361,16 +362,12 @@ input, textarea {
    list-style: none;
    justify-content: flex-start;
    text-align: left;
-   margin-left: 10%;
-}
-
-.contact-info p {
-   
 }
 
 .opening-hours {
    justify-content: flex-start;
    text-align: left;
+   margin-bottom: 2rem;
 }
 
 .opening-hours h2 {
@@ -386,12 +383,6 @@ input, textarea {
    margin-left: 10%;
 }
 
-.opening-hours p {
-}
-
-
-
-
 /* Footer */
 
 footer {
@@ -399,6 +390,7 @@ footer {
    align-items: center;
    justify-content: space-between;
    max-height:160px;
+   border-top: 4px solid #104B4F;
 }
 
 .bottom-ws-logo {
