@@ -78,7 +78,14 @@ button {
    padding: 10px 20px;
    padding: 10px 20px;
    border-radius: 5px;
- }
+
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #6CA2A6;
+}
  
 /* Index page */
 
@@ -491,5 +498,5 @@ footer {
 
    .btn button {
       padding: 5px 0;
-   }   
+   }
 }
