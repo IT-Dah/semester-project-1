@@ -440,5 +440,25 @@ footer {
 
    /* Privacy Policy Page */
 
+   .privacy-policy {
+      text-align: center;
+      margin: 10px;
+   }
 
+   .privacy-policy h1 {
+      margin: 0rem;
+   }
+   
+   .privacy-policy h2, ul {
+      margin: 15px 0 2px 0;
+   }
+
+   .privacy-policy h3 {
+      margin: 5px 0 2px 0;
+   }
+
+   .privacy-policy p {
+      margin: 0;
+      list-style: none;
+   }
 }
