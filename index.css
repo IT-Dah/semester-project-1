@@ -461,4 +461,26 @@ footer {
       margin: 0;
       list-style: none;
    }
+
+   /* Terms and Conditions */
+
+   .terms-conditions {
+      text-align: center;
+      margin: 10px;
+   }
+
+   .terms-conditions h1 {
+      margin: 0rem;
+   }
+   
+   .terms-conditions h2, h3 {
+      margin: 15px 0 2px 0;
+   }
+
+   .terms-conditions p {
+      margin: 0;
+      list-style: none;
+   }
+
+   
 }
